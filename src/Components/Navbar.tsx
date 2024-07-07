@@ -16,7 +16,7 @@ const MyNavbar: React.FC = () => {
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-14">
               <a href="#home" className="text-green-600 hover:text-green-700 hover:scale-105 hover:transition text-md font-medium"> Home </a>
-              <a href="#services" className="text-green-600 hover:text-green-700 hover:scale-105 hover:transition rounded-md text-md font-medium"> Products </a>
+              <a href="https://calculator-using-react-ts.netlify.app/" className="text-green-600 hover:text-green-700 hover:scale-105 hover:transition rounded-md text-md font-medium"> Calculator </a>
               <a href="#about" className="text-green-600 hover:text-green-700 hover:scale-105 hover:transition rounded-md text-md font-medium"> About </a>
               <a href="#contact" className="text-green-600 hover:text-green-700 hover:scale-105 hover:transition rounded-md text-md font-medium"> Contact Us </a>
               
@@ -44,7 +44,7 @@ const MyNavbar: React.FC = () => {
       <div className={`navMobile ${isOpen ? 'open' : ''} md:hidden sm:hidden`}>
         <div className="px-4 pt-2 pb-3 space-y-1 sm:px-4">
           <a href="#home" className="text-green-600 focus:text-bold focus:scale-110 hover:text-green-700 block px-3 py-2 rounded-md text-base font-medium"> Home </a>
-          <a href="#services" className="text-green-600 focus:text-bold focus:scale-110 hover:text-green-700 block px-3 py-2 rounded-md text-base font-medium"> Products </a>
+          <a href="https://calculator-using-react-ts.netlify.app/" className="text-green-600 focus:text-bold focus:scale-110 hover:text-green-700 block px-3 py-2 rounded-md text-base font-medium"> Calculator </a>
           <a href="#about" className="text-green-600 focus:text-bold focus:scale-110 hover:text-green-700 block px-3 py-2 rounded-md text-base font-medium"> About </a>
           <a href="#contact" className="text-green-600 focus:text-bold focus:scale-110 hover:text-green-700 block px-3 py-2 rounded-md text-base font-medium"> Contact </a>
         </div>
